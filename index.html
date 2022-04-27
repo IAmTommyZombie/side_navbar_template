@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Sidebar Menu</title>
+  </head>
+  <body>
+    <nav>
+      <div class="sidebar-top">
+        <span class="shrink-btn">
+          <i class="bx bx-chevron-left"></i>
+        </span>
+        <img src="/img/logo.png" class="logo" alt="" />
+        <h3 class="hide">Cthulu</h3>
+      </div>
+
+      <div class="search">
+        <i class="bx bx-search-alt-2"></i>
+        <input type="text" class="hide" placeholder="Search ..." />
+      </div>
+
+      <div class="sidebar-links">
+        <ul>
+          <div class="active-tab"></div>
+          <li class="tooltip-element" data-tooltip="0">
+            <a href="#" class="active" data-active="0">
+              <div class="icon">
+                <i class="bx bx-tachometer"></i>
+                <i class="bx bxs-tachometer"></i>
+              </div>
+              <span class="link hide">Dashboard</span>
+            </a>
+          </li>
+          <li class="tooltip-element" data-tooltip="1">
+            <a href="#" data-active="1">
+              <div class="icon">
+                <i class="bx bx-bar-chart-alt-2"></i>
+                <i class="bx bxs-bar-chart-alt-2"></i>
+              </div>
+              <span class="link hide">Analytics</span>
+            </a>
+          </li>
+          <li class="tooltip-element" data-tooltip="2">
+            <a href="#" data-active="2">
+              <div class="icon">
+                <i class="bx bx-message-dots"></i>
+                <i class="bx bxs-message-dots"></i>
+              </div>
+              <span class="link hide">Messages</span>
+            </a>
+          </li>
+          <li class="tooltip-element" data-tooltip="3">
+            <a href="#" data-active="3">
+              <div class="icon">
+                <i class="bx bx-folder"></i>
+                <i class="bx bxs-folder"></i>
+              </div>
+              <span class="link hide">Projects</span>
+            </a>
+          </li>
+          <div class="tooltip">
+            <span class="show">Dashboard</span>
+            <span>Analytics</span>
+            <span>Messages</span>
+            <span>Projects</span>
+          </div>
+        </ul>
+
+        <h4 class="hide">Shortcuts</h4>
+
+        <ul>
+          <li class="tooltip-element" data-tooltip="0">
+            <a href="#" data-active="4">
+              <div class="icon">
+                <i class="bx bx-edit"></i>
+                <i class="bx bxs-edit"></i>
+              </div>
+              <span class="link hide">Tasks</span>
+            </a>
+          </li>
+          <li class="tooltip-element" data-tooltip="1">
+            <a href="#" data-active="5">
+              <div class="icon">
+                <i class="bx bx-help-circle"></i>
+                <i class="bx bxs-help-circle"></i>
+              </div>
+              <span class="link hide">Help</span>
+            </a>
+          </li>
+          <li class="tooltip-element" data-tooltip="2">
+            <a href="#" data-active="6">
+              <div class="icon">
+                <i class="bx bx-cog"></i>
+                <i class="bx bxs-cog"></i>
+              </div>
+              <span class="link hide">Settings</span>
+            </a>
+          </li>
+          <div class="tooltip">
+            <span class="show">Tasks</span>
+            <span>Help</span>
+            <span>Settings</span>
+          </div>
+        </ul>
+      </div>
+
+      <div class="sidebar-footer">
+        <a href="#" class="account tooltip-element" data-tooltip="0">
+          <i class="bx bxs-user-circle"></i>
+        </a>
+        <div class="admin-user tooltip-element" data-tooltip="1">
+          <div class="admin-profile hide">
+            <img src="/img/Beer.jpg" alt="" />
+            <div class="admin-info">
+              <h3>Tommy Scales</h3>
+              <h5>Dark priest of <br />R'lyeh</h5>
+            </div>
+          </div>
+          <a href="#" class="log-out">
+            <i class="bx bx-log-out-circle"></i>
+          </a>
+        </div>
+        <div class="tooltip">
+          <span class="show">Tommy Scales</span>
+          <span>Logout</span>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <h1>My Dashboard</h1>
+      <p class="text">
+        Ya na kadishtu nilgh'ri stell'bsna Nyogtha, K'yarnak phlegethor l'ebumna
+        syha'h n'ghft, Ya hai kadishtu ep r'luh-eeh Nyogtha eeh, s'uhn-ngh athg
+        li'hee orr'e syha'h. ph'nglui mglw'nafh Cthugha Fomalhaut n'gha-ghaa
+        naf'lthagn.
+      </p>
+      <p class="copyright">
+        &copy; 2021 - <span>Cthulu All Rights Reserved</span>
+      </p>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
